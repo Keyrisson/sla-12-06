@@ -6,15 +6,23 @@
     <title>n sei</title>
 </head>
 <body>
+    <h1>Calculadora</h1>
+    <img src="img/calculator-385506_1280.jpg" height="300px" width="alto" alt="logo">
+    <br>
     <label for="primeiro_numero">N1</label>
     <input type="number" name="primeiro_numero" id="primeiro_numero">
     <br>
     <label for="segundo_numero">N2</label>
     <input type="number" name="segundo_numero" id="segundo_numero">
-    <br><br>
-    <button type="button" onclick="soma()">somar</button>
-    <button type="button" onclick="subtrai()">subtrair</button>
+    <br>
+    <button type="button" onclick="soma()">somar[+]</button>
+    <button type="button" onclick="subtrair()">subtrair[-]</button>
+    <button type="button" onclick="multiplicacao()">multiplicação[×]</button>
+    <button type="button" onclick="dividir()">dividir[÷]</button><br><br>
+    <button type="button" onclick="maior()">maior</button>
+    
     <h1 id="resultado"></h1>
+    <h2 id=""></h2>
     <script src="script.js"></script>
 </body>
 </html>
